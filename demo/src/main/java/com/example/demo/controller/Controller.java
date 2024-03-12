@@ -11,7 +11,7 @@ import com.example.demo.repo.GiocoRepo;
 
 @RestController
 public class Controller {
-	
+	//ricordarsi di fare il clean install e sistemare il db
 	@Autowired
 	private GiocoRepo repo;
 	

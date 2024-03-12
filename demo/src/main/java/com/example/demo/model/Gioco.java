@@ -16,7 +16,7 @@ import lombok.Data;
 /*trovato extends JPASupport indagare*/
 public class Gioco {
 	@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
 	private int numeroDiGiocatori;
